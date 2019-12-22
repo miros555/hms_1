@@ -128,3 +128,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="switchero">
 	<?php do_action('wpml_add_language_selector'); ?>	
 			</div>
+
+
+            //commit
