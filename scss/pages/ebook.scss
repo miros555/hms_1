@@ -1,0 +1,320 @@
+.step-5ps {
+  display: flex;
+  align-items: center;
+  margin-right: 52px;
+  div:last-child {
+    flex-basis: 46%;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #3A404F;
+  }
+  div:first-child, div:first-child span {
+    font-size: 60px;
+    line-height: 1.1em;
+    font-weight: bold;
+  }
+  div:first-child {
+    flex-grow: 1;
+    text-align: right;
+    text-transform: uppercase;
+  }
+  .step-number {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+.ebook-1-section {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 115px;
+  .meet-5ps {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .hm-btn a {
+    width: 575px;
+  }
+}
+.ebook-2-section {
+  padding-left: 39px;
+  padding-right: 39px;
+  h2 {
+    margin-top: 70px;
+  }
+}
+
+.ebook-form-wrap {
+  padding: 39px 108px 55px 66px;
+  color: #fff;
+  #_form_18_ ._submit {
+    width: 100%;
+    background: #000!important;
+  }
+  ._form-label {
+    font-size: 16px!important;
+    line-height: 1.43em;
+    font-weight: normal!important;
+  }
+  #_form_18_ input[type="text"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    padding: 15px 6px 15px 0;
+    color: #fff!important;
+    font-size: 16px;
+    line-height: 1.43em;
+    margin-bottom: 28px;
+    font-weight: 300;
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #fff;
+      opacity: 1; /* Firefox */
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #fff;
+    }
+
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #fff;
+    }
+
+    &::-ms-input-placeholder { /* Microsoft Edge */
+      color: #fff;
+    }
+  }
+  ._form-title {
+    font-family: 'Poppins',Helvetica,Arial,sans-serif;
+    font-size: 38px;
+    line-height: 1.4em;
+    margin-bottom: 37px!important;
+  }
+  .hm-ebook-agreement {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    max-width: 272px;
+    font-weight: 300;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  ._form-thank-you {
+    color: #fff;
+  }
+
+}
+
+.hm-author {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2em;
+  text-align: center;
+  img {
+    margin-bottom: 22px;
+    max-width: 230px;
+  }
+  h3, h4 {
+    margin: 0 0 4px;
+    line-height: 1.39em;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #F7755E;
+  }
+  div:last-child {
+    max-width: 320px;
+    margin: 0 auto 45px;
+    font-size: 14px;
+    font-weight: normal;
+    p {
+      font-weight: normal;
+    }
+  }
+
+}
+
+.ebook-3-section {
+  margin-top: 50px;
+  .wpb_image_grid_ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      float: none!important;
+      position: static!important;
+    }
+  }
+  .hm-btn a {
+    min-width: 574px;
+    margin: 30px 0;
+  }
+}
+
+.ebook-4-section {
+  margin-bottom: 333px;
+  .vc_row {
+    background-repeat: no-repeat;
+    background-position: 100% 66%;
+  }
+  h2, h3, p {
+    max-width: 680px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  h3 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .hm-btn a {
+    min-width: 574px;
+  }
+}
+.hm-copyright p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+}
+.hm-authors-gallery-wrap {
+
+}
+@media only screen and (min-width:1200px) {
+  section.ebook-2-section, section.ebook-3-section {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+@media only screen and (max-width:1600px) {
+  .step-5ps {
+    margin-bottom: 10px;
+    div:first-child, div:first-child span {
+      font-size: 40px;
+    }
+  }
+}
+@media only screen and (max-width:1550px) {
+  .ebook-4-section .vc_row {
+    background-size: 50%;
+  }
+}
+
+@media only screen and (max-width:1199px) {
+  .ebook-1-section {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .ebook-4-section {
+    h2, h3, p {
+      max-width: none;
+    }
+    .vc_row {
+      background-image: none!important;
+    }
+  }
+  .ebook-3-section .wpb_image_grid_ul {
+    flex-wrap: wrap;
+    li {
+      flex-basis: 24%;
+      img {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .step-5ps {
+    margin-right: 0;
+    div:first-child, div:first-child span {
+      font-size: 26px;
+    }
+  }
+  .ebook-1-section {
+    .meet-5ps img {
+      height: auto;
+    }
+    .hm-btn a {
+      width: auto;
+    }
+  }
+  .ebook-3-section {
+    .hm-btn a {
+      min-width: auto;
+    }
+  }
+
+  .hm-authors-gallery-wrap {
+    .vc_column-inner > .wpb_wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+  .ebook-form-wrap {
+    padding: 20px 15px 35px 15px;
+    ._form-title {
+      font-size: 20px!important;
+      line-height: 1.2em!important;
+    }
+    #_form_18_ ._submit {
+      min-width: auto;
+      padding: 0 10px !important;
+      font-size: 16px;
+      line-height: 1.1em;
+    }
+  }
+  .ebook-2-section {
+    h2 {
+      margin-top: 35px;
+    }
+  }
+  .ebook-4-section {
+    margin-bottom: 150px;
+    h3 {
+      font-size: 20px;
+    }
+    .hm-btn a {
+      min-width: 0;
+    }
+  }
+  .hm-author h3 {
+    font-size: 22px;
+  }
+  .ebook-3-section {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width:585px) {
+  .step-5ps {
+    display: block;
+    div {
+      display: inline-block;
+    }
+    div:last-child {
+      display: block;
+      width: 100%;
+    }
+  }
+  .ebook-3-section .wpb_image_grid_ul {
+    li {
+      flex-basis: 49%;
+      margin-bottom: 12px!important;
+    }
+  }
+}

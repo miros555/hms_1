@@ -1,0 +1,122 @@
+footer.hm-footer-wrap {
+  background-color: #3A404F;
+  color: #fff;
+  h3, a, #menu-footer-connect a {
+    color: #fff;
+  }
+  ul {
+    padding-left: 0;
+  }
+  .hm-btn {
+    display: block;
+    margin-top: 18px;
+    max-width: 410px;
+  }
+  hr {
+    margin: 0;
+    border-top: none;
+    border-bottom: 1px solid #fff;
+  }
+}
+.hm-footer-top, .hm-footer-bottom {
+  max-width: 1580px;
+  padding-right: 70px;
+  padding-left: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hm-footer-top {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  li a {
+    font-size: 16px;
+  }
+  & > div:first-child {
+    flex-basis: 30%;
+  }
+  & > div:last-child .widget_nav_menu {
+    float: right;
+  }
+  .footer-social i {
+    font-size: 25px;
+  }
+  .widget_custom_html {
+    clear: both;
+  }
+  .footer-social {
+    padding-top: 15px;
+    a:last-child i {
+      margin-right: 0;
+    }
+  }
+}
+
+.hm-footer-bottom-wrap {
+  background-color: #353A46;
+}
+.hm-footer-bottom {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.hm-copyright {
+  color: #fff!important;
+  font-size: 14px;
+  padding-left: 110px;
+}
+.hm-footer-bottom-nav {
+  a {
+    font-size: 14px;
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .hm-footer-top {
+    flex-wrap: wrap;
+    padding-right: 16px;
+    & > div:first-child {
+      flex-basis: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .hm-btn {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  .hm-copyright {
+    padding-left: 0;
+  }
+  .hm-footer-bottom {
+    display: block;
+    text-align: center;
+    padding-right: 16px;
+  }
+
+}
+
+@media only screen and (max-width:585px) {
+  .hm-footer-top {
+
+    & > div {
+      flex-basis: 50%;
+    }
+    & > div:last-child .widget_nav_menu {
+      float: none;
+    }
+  }
+  .hm-footer-bottom-nav {
+    margin-top: 10px!important;
+    a {
+      display: block;
+      width: 140px;
+      margin: 0 auto !important;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import '_variables';
+@import '_mixins';
+
+/**COMPONENTS*/
+@import 'components/base';
+@import 'components/footer';
+
+
+/**PAGES*/
+@import 'pages/ebook';
+@import 'pages/marketing-team';
+@import 'pages/home2';
